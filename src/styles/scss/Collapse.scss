@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+$font-1 : "Montserrat", sans-serif;
+
+
+
+
+.Collapse{
+     font-family: $font-1;
+     
+     .Collapse__ContainerHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FF6060;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: white;
+      .Collapse__Button{
+            border: none; 
+            background-color: #ff6060;
+            padding-right: 15PX;
+    }   
+    }
+      
+ .Collapse__Description{
+        background-color: #F6F6F6;
+        }
+
+}
+

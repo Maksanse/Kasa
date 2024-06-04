@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+$font-1 : "Montserrat", sans-serif;
+
+@mixin placement{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Location__TitleHost{
+    @include placement();
+    font-family: $font-1;
+    color:  #FF6060;;
+}
+
+.Location__NamePicture{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: $font-1;
+    gap: 10px;
+    color:  #FF6060;
+    font-weight: 500;
+    .Location__Picture{
+        border-radius: 90px;
+        height: 70px;
+    }
+}
+
+.Location__GroupeName{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    .Location__Name{
+        display: flex;
+        flex-direction:row-reverse;
+         padding: 0;
+         margin: 0;
+         font-size: 18px;
+    }
+
+}
+
+.Location__Title{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    .Location__TitleText{
+        padding: 0;
+    margin: 0;
+    }
+    .Location__TitleTextLocation{
+        padding: 0;
+    margin: 0;
+    }
+    
+}
+
+.Location__TagsRating{
+    @include placement();
+    padding-bottom: 20px;
+}
+
+.Location__Tagsli{
+    list-style: none;
+    background-color: #ff6060;
+    color: white;
+    font-family:$font-1;
+    border-radius: 45px;
+    padding: 10px 25px;
+}
+
+.Location__CollapseGroupe{
+    @include placement();
+    .Location__Collapse{
+        width: 40%;
+    
+}
+}

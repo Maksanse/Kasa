@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+ .Location__TitleHost {
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: space-between;
+	 align-items: center;
+	 font-family: "Montserrat", sans-serif;
+	 color: #ff6060;
+}
+ .Location__NamePicture {
+	 display: flex;
+	 flex-direction: row;
+	 align-items: center;
+	 font-family: "Montserrat", sans-serif;
+	 gap: 10px;
+	 color: #ff6060;
+	 font-weight: 500;
+}
+ .Location__NamePicture .Location__Picture {
+	 border-radius: 90px;
+	 height: 70px;
+}
+ .Location__GroupeName {
+	 display: flex;
+	 flex-direction: column;
+	 padding: 0;
+	 margin: 0;
+}
+ .Location__GroupeName .Location__Name {
+	 display: flex;
+	 flex-direction: row-reverse;
+	 padding: 0;
+	 margin: 0;
+	 font-size: 18px;
+}
+ .Location__Title {
+	 display: flex;
+	 flex-direction: column;
+	 padding: 0;
+	 margin: 0;
+}
+ .Location__Title .Location__TitleText {
+	 padding: 0;
+	 margin: 0;
+}
+ .Location__Title .Location__TitleTextLocation {
+	 padding: 0;
+	 margin: 0;
+     color: black;
+}
+ .Location__TagsRating {
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: space-between;
+	 align-items: center;
+     padding-bottom: 20px;
+}
+
+.Location__Tagsli {
+    list-style: none;
+    background-color: #ff6060;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 15px;
+    padding: 10px 25px;
+}
+
+.Location__Tags{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+
+.Location__CollapseGroupe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Location__CollapseGroupe .Location__Collapse {
+    width: 45%;
+}
+
+.Location__CollapseElement{
+    list-style: none;
+    padding-bottom: 5px;
+}

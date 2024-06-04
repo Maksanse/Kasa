@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+$font-1 : "Montserrat", sans-serif;
+
+.Header__Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .Header__Link{
+        margin-left: 50px;
+        font-family: $font-1;
+        font-size: 24px;
+        text-decoration: none;
+        color: black;
+    }
+    .Header__Link:focus{
+        text-decoration: underline;
+    }
+}
