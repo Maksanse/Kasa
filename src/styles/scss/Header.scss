@@ -18,3 +18,31 @@ $font-1 : "Montserrat", sans-serif;
         text-decoration: underline;
     }
 }
+
+@media (max-width : 430px){
+    .Header__Container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+         .Header__Link {
+        margin-left: 30px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+    }
+    .Header__Link:focus {
+        text-decoration: underline;
+    }
+    }
+    .Header__Logo{
+        width: 25%;
+    }
+    .Header__Logoimg{
+        width: 100%;
+    }
+   
+    
+  }

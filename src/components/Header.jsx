@@ -9,7 +9,7 @@ function Header(){
 return (
     <header className="Header__Container">
         <div className="Header__Logo">
-            <img src={logo} alt='logo de Kasa'></img>
+            <img className="Header__Logoimg"src={logo} alt='logo de Kasa'></img>
         </div>
         <nav >
             <Link className="Header__Link" to="/" >Acceuil</Link>

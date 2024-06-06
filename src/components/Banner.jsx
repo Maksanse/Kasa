@@ -8,7 +8,8 @@ return (
         <img className='Banner__img' src={img} alt="e"></img>
         {withOverlay && (
             <div className='Banner__Overlay'> 
-                <p className='Banner__OverlayText'>Chez vous partout et ailleurs</p>
+                <p className='Banner__OverlayText'>Chez vous, </p>
+                <p className='Banner__OverlayText'> partout et ailleurs</p>
             </div>
         )}
     </div>

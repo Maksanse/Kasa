@@ -21,8 +21,8 @@ return(
         <div>
             <img className="Carrousel__img" src={pictures[currentIndex]} alt={`${title}`}></img>
             <div className="Carrousel__GroupeButton">
-                <p className="Carrousel__Button--Left" onClick={prevClick}><FontAwesomeIcon icon={faChevronLeft} size={"10x"}/> </p>
-                <p className="Carrousel__Button--Right" onClick={nextClick}><FontAwesomeIcon icon={faChevronRight} size={"10x"}/> </p>
+                <button className="Carrousel__Button--Left" onClick={prevClick}><FontAwesomeIcon icon={faChevronLeft} /> </button>
+                <button className="Carrousel__Button--Right" onClick={nextClick}><FontAwesomeIcon icon={faChevronRight}/> </button>
             </div> 
             <p className="Carrousel__p">{currentIndex + 1}/{pictures.length}</p>
         </div>

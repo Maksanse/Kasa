@@ -20,3 +20,14 @@ footer{
   
   margin: 0px 200px;
 }
+
+@media (max-width : 430px){
+  header,section, article {
+    margin: 15px;
+   }
+   
+   footer{
+     
+     margin: 0px;
+   }
+}
