@@ -6,6 +6,7 @@
 	 border-radius: 30px;
 	 margin-bottom: 50px;
 	 position: relative;
+	 
 }
  .Banner .Banner__img {
 	 height: 250px;
@@ -35,7 +36,40 @@
 	 font-size: 48px;
 }
 
-@media (max-width: 430px) {
+@media (max-width: 780px) {
+	.Banner .Banner__img {
+		height: 150px;
+		object-fit: cover;
+		width: 100%;
+		border-radius: 30px;
+   }
+	.Banner__Overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		background-color: rgba(0, 0, 0, 0.5);
+		color: white;
+		font-size: 1.5em;
+		font-weight: bold;
+		border-radius: 30px;
+   }
+	.Banner__Overlay .Banner__OverlayText {
+		text-shadow: 2px 2px 4px black;
+		font-family: "Montserrat", sans-serif;
+		font-size: 25px;
+		margin: 0;
+		padding-left: 15px;
+   }
+}
+
+
+@media (max-width: 440px) {
 	.Banner .Banner__img {
 		height: 150px;
 		object-fit: cover;

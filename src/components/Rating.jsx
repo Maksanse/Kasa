@@ -9,7 +9,7 @@ function StarRating ({ initialRating}) {
       {Array.from({ length: 5 }, (_, index) => (
         <FontAwesomeIcon
           key={index}
-          icon={ index < initialRating ? solidStar : solidStar}
+          icon={solidStar}
           style={{ color: index < initialRating ? '#ff6060' : '#E3E3E3'
         
            }}

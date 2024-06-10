@@ -37,7 +37,33 @@
 	 margin-right: 15px;
 }
 
-@media (max-width: 430px) {
+
+
+@media (max-width: 1050px) {
+	.Card {
+		width: 47%;
+   }
+	.Card .Card__img {
+		display: block;
+		width: 100%;
+		height: 255px;
+		object-fit: cover;
+		border-radius: 25px;
+   }
+	.Card .Card__Overlay .Card__OverlayText {
+		position: relative;
+		z-index: 2;
+		font-size: 18px;
+		font-family: "Montserrat", sans-serif;
+		font-weight: 700;
+		top: 78%;
+		left: 3%;
+		color: white;
+		margin-right: 15px;
+   }
+}
+
+@media (max-width: 730px) {
 	.Card {
 		width: 100%;
    }

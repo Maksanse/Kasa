@@ -18,6 +18,15 @@
     color: black;
     font-size: 18px;
 }
+
+.Error__TextContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Error__text{
+    margin: 0;
+}
 @media (max-width: 430px) {
     .Error {
         display: flex;

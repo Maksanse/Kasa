@@ -4,12 +4,13 @@
     object-fit: cover;
     position: relative;
     border-radius: 25px;
+    object-position:center;
 }
 
 .Carrousel__Button--Left{
     position: absolute;
     top: 35%;
-    left: 400px;
+    left: 5%;
     border: none;
     color: white;
     cursor: pointer;
@@ -19,7 +20,7 @@
 .Carrousel__Button--Right{
     position: absolute;
     top: 35%;
-    right: 400px;
+    right: 5%;
     border: none;
     color: white;
     cursor: pointer;
@@ -37,19 +38,21 @@
 
 .Carrousel__p{
     position: absolute;
-    bottom: 33%;
+    bottom: 18%;
     left: 50%;
     color: white;
 }
 
-@media (max-width: 430px) {
+@media (max-width: 730px) {
     .Carrousel__img{
         height: 350px;
         width: 100%;
         object-fit: cover;
+        object-position: center ;
         position: relative;
         border-radius: 25px;
     }
+   
     
     .Carrousel__Button--Left{
         position: absolute;
@@ -83,7 +86,7 @@
     
     .Carrousel__p{
         position: absolute;
-        top: 370px;
+        bottom: 59%;
         left: 48%;
         color: rgb(255, 255, 255);
     }

@@ -1,13 +1,36 @@
+.Galerie{
+    padding: 0;
+    margin: 0;
+
+}
 .Galerie__ul{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 50px;
+    padding: 2% 4%;
+    column-gap: 2%;
+    row-gap: 10px;
     justify-content: center;
-    padding: 0;
+    margin: 0px;
+    
     background-color: #f6f6f6;
-    padding-top: 50px;
+    
     border-radius: 25px;
+}
+
+@media (max-width:730px) {
+    .Galerie__ul{
+      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        background:none;
+        padding: 0;
+        padding-top: 0px;
+        border-radius: 25px;
+    }
+
 }
 
 @media (max-width:430px) {
